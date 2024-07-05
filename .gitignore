@@ -1,0 +1,36 @@
+# Operating system specific files
+Thumbs.db
+.DS_Store
+
+# IDE or editor specific files
+*.sublime-project
+*.vscode
+.idea/
+
+# Build artifacts
+node_modules/
+dist/
+build/
+.next/
+
+# Testing and documentation
+coverage/
+*.log
+*.md # Uncomment if you don't track markdown files
+
+# Environment specific configurations
+.env
+
+# Secret files
+.secret*
+
+# Temporary files
+.tmp/
+tmp/
+
+# NPM Cache
+.npm
+
+# Yarn Cache
+.yarn/cache
+.yarn/unplugged
